@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+}
+
+.hero {
+    background: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93') center/cover;
+    padding: 3rem;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.cat-btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    background: #3b2f2f;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
+section {
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    flex: 1 1 300px;
+}
+
+#menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+}
+
+.menu-item {
+    background: #fafafa;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.menu-item button {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    width: 100%;
+    background: #3b2f2f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#status {
+    text-align: center;
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    color: #777;
+}
